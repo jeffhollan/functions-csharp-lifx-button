@@ -1,0 +1,1 @@
+[![Build status](https://jeffhollan2.visualstudio.com/ServerlessConf/_apis/build/status/AzureFunctionBuild)](https://jeffhollan2.visualstudio.com/ServerlessConf/_build/latest?definitionId=17)
