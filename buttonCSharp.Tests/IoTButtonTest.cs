@@ -1,5 +1,5 @@
 using buttonCSharp.Tests.Models;
-using buttonCSharpVSTS;
+using buttonCSharp.Function;
 using Microsoft.Azure.EventHubs;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;

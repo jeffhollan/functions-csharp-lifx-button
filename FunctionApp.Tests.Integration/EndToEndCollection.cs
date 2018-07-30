@@ -19,7 +19,7 @@ namespace FunctionApp.Tests.Integration
     public class TestFixture : EndToEndTestFixture
     {
         public TestFixture() :
-            base(@"../../../../buttonCSharpVSTS/bin", "CSharp")
+            base(@"../../../../buttonCSharp.Function/bin", "CSharp")
         {
         }
 

@@ -1,6 +1,5 @@
 ﻿using FunctionTestHelper;
 using Microsoft.Azure.Devices.Client;
-using Microsoft.Azure.EventHubs;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;

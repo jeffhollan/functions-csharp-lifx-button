@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\buttonCSharpVSTS\buttonCSharpVSTS.csproj" />
+    <ProjectReference Include="..\buttonCSharp.Function\buttonCSharp.Function.csproj" />
   </ItemGroup>
 
 </Project>

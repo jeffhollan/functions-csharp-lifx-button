@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace buttonCSharpVSTS
+namespace buttonCSharp.Function
 {
     public static class IoTButton
     {

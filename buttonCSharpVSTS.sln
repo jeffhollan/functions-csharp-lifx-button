@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27924.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buttonCSharpVSTS", "buttonCSharpVSTS\buttonCSharpVSTS.csproj", "{6B035E2B-A841-4CF9-B953-D068928A6062}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "buttonCSharp.Function", "buttonCSharp.Function\buttonCSharp.Function.csproj", "{6B035E2B-A841-4CF9-B953-D068928A6062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buttonCSharp.Tests", "buttonCSharp.Tests\buttonCSharp.Tests.csproj", "{31A318EE-3A65-489B-BC9F-06CE277FD433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "buttonCSharp.Tests", "buttonCSharp.Tests\buttonCSharp.Tests.csproj", "{31A318EE-3A65-489B-BC9F-06CE277FD433}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionTestHelper", "FunctionTestHelper\FunctionTestHelper.csproj", "{657F9B28-B308-4404-A5DF-9B70B629C133}"
 EndProject
