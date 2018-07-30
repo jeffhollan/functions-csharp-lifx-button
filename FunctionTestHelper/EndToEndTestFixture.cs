@@ -66,6 +66,9 @@ namespace FunctionTestHelper
 
         private void UpdateEnvironmentVariables(string secretsPath)
         {
+            if (!File.Exists(secretsPath))
+                return;
+
             var localSettings = File.ReadAllText(secretsPath);
             JObject settingValues = JObject.Parse(localSettings)["Values"] as JObject;
             foreach (var secret in settingValues)
