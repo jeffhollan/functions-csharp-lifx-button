@@ -26,7 +26,11 @@ namespace FunctionTestHelper
             FixtureId = testId;
 
             _copiedRootPath = Path.Combine(Path.GetTempPath(), "FunctionsE2E", DateTime.UtcNow.ToString("yyMMdd-HHmmss"));
-            FileUtility.CopyDirectory(rootPath, _copiedRootPath);
+
+            // Get host.json file path
+            string hostPath = Directory.GetFiles(rootPath, "host.json", SearchOption.AllDirectories)[0];
+
+            FileUtility.CopyDirectory(Path.GetDirectoryName(hostPath), _copiedRootPath);
 
             // Allow derived classes to limit functions. We'll update host.json in the copied location
             // so it only affects this fixture's instance.
