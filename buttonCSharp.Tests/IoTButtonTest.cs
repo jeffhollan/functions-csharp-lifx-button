@@ -26,7 +26,7 @@ namespace buttonCSharp.Tests
             this.output = output;
         }
         [Fact]
-        public async Task OKFromLIFX()
+        public async Task OKFromLIFX_Mock()
         {
             EventData data = new EventData(Encoding.UTF8.GetBytes("Test Message"));
 
@@ -40,6 +40,15 @@ namespace buttonCSharp.Tests
             IoTButton.client = new Lazy<HttpClient>(() => { return new HttpClient(mockHttpMessageHandler.Object); });
             await IoTButton.ButtonPressAsync(data, logger);
             
+        }
+
+        [Fact]
+        public async Task OKFromLIFX_Real()
+        {
+            EventData data = new EventData(Encoding.UTF8.GetBytes("Test Message"));
+
+            IoTButton.client = new Lazy<HttpClient>(() => { return new HttpClient(); });
+            await IoTButton.ButtonPressAsync(data, logger);
         }
     }
 }
