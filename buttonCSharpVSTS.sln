@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buttonCSharpVSTS", "buttonC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buttonCSharp.Tests", "buttonCSharp.Tests\buttonCSharp.Tests.csproj", "{31A318EE-3A65-489B-BC9F-06CE277FD433}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionTestHelper", "FunctionTestHelper\FunctionTestHelper.csproj", "{657F9B28-B308-4404-A5DF-9B70B629C133}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "buttonCSharp.Tests.Integration", "FunctionApp.Tests.Integration\buttonCSharp.Tests.Integration.csproj", "{29D053ED-F817-4C5C-B0E5-B19E95205D40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{31A318EE-3A65-489B-BC9F-06CE277FD433}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31A318EE-3A65-489B-BC9F-06CE277FD433}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31A318EE-3A65-489B-BC9F-06CE277FD433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657F9B28-B308-4404-A5DF-9B70B629C133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657F9B28-B308-4404-A5DF-9B70B629C133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657F9B28-B308-4404-A5DF-9B70B629C133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657F9B28-B308-4404-A5DF-9B70B629C133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D053ED-F817-4C5C-B0E5-B19E95205D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D053ED-F817-4C5C-B0E5-B19E95205D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D053ED-F817-4C5C-B0E5-B19E95205D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D053ED-F817-4C5C-B0E5-B19E95205D40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
