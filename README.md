@@ -1,1 +1,3 @@
-[![Build status](https://jeffhollan2.visualstudio.com/ServerlessConf/_apis/build/status/AzureFunctionBuild)](https://jeffhollan2.visualstudio.com/ServerlessConf/_build/latest?definitionId=17)
+# Button sample
+
+Sample Azure Functions project that toggles a LIFX lightbulb.  Also shows how to write unit tests (with HTTP mocking) and integration tests.  All of this was also setup with CI/CD in VSTS, including automated testing.

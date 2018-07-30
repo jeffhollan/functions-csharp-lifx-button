@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 /FunctionTestHelper/.DS_Store
 /FunctionApp.Tests.Integration/Properties
+/buttonCSharpVSTS/Properties/PublishProfiles
